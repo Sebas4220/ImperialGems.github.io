@@ -1,141 +1,58 @@
-:root{
+#Barra-de-menu{
 
---primary: #111854;
---light: #ffffff;
---grey: #efefef;
+    background-color: #666666;
+
+    color: white;
+
+}
+
+#Barra-de-menu a{
+
+    color: white;
+    font-size: 15px;
 
 }
 
 
+.navbar-toggler {
 
-body{
-overflow: hidden;
-font-family: ;
-font-weight: 300;
-background-color: #303030;
-font-family: 'Overpass', sans-serif;
-}
-
-
-
-
-#sidebar-container{
-min-height: 100vh;
-border-top-right-radius: 60px;
-border-bottom-right-radius: 60px;
-background-color: #131313;
-
+    border: 0px;
 
 }
 
 
-#sidebar-container a{
-    
-color: white;
-font-size: 25px;
-border-bottom-left-radius: 20px;
-position: relative;
+.dropdown-menu{
+
+    background-color: #666666;
+    width: 100%;
+    border-radius: 2em;
 
 }
 
 
-#sidebar-container a:hover{
-
-color: black;
+.dropdown-menu a:hover{
 background-color: #00aaff;
-border-bottom-left-radius: 20px;
-}
-
-
-
-#sidebar-container .logo{
-
-    padding: 2em;
-
-}
-
-#sidebar-container .menu{
-color: white;
-width: 91.5%;
-}
-
-#Salir{
-
-background-color: #00aaff;
-color: black;
-border: none;
 border-radius: 2em;
-width: 90%;
-}
-
-#Salir:hover{
-color: white;
 
 }
 
+#card .card{
 
+    background-color: #666666;
+    color: white;
+    border-radius: 1em;
 
-#Titulo1{
-overflow-y: auto;
-height: 100vh;
-font-size: 40px;
-color: black;
-width: 200%;
-position: relative;
 
 }
 
 
-
-
-.navbar
-{
-
-    background-color: #00aaff;
-
-}
-
-
-.Titulo2 .card{
-
-
-background-color: #131313;
-border-radius: 1em;
-color: white;
-
-}
-
-.Titulo2 p{
-
-font-size: 15px;
-
-}
-
-.Titulo2 button{
+#card button{
     width: 100%;
     font-size: 15px;
     border: none;
     background-color: #00aaff;
     border-radius: 1em;
-    color: black;
+    color: white;
 }
 
 
-.Titulo2 .modal-content{
-border: none;
-background-color: #303030;
-
-}
-
-.Titulo2 .modal-footer{
-
-border-top: none;
-
-}
-
-.Titulo2 .modal-header{
-
-border-bottom:none;
-
-
-}
