@@ -1,0 +1,44 @@
+#Barra-de-menu{
+
+    background-color: #666666;
+
+    color: white;
+
+}
+
+#Barra-de-menu a{
+
+    color: white;
+    font-size: 15px;
+
+}
+
+
+.navbar-toggler {
+
+    border: 0px;
+
+}
+
+
+.dropdown-menu{
+
+    background-color: #666666;
+    width: 100%;
+    border-radius: 2em;
+
+}
+
+
+.dropdown-menu a:hover{
+background-color: #00aaff;
+border-radius: 2em;
+
+}
+
+
+
+
+
+
+
