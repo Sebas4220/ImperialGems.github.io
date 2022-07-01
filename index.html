@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="./styless.css">
+
+</head>
+  <body>
+    <header id="Barra-de-menu">
+        <nav class="navbar navbar-expand-xl">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="./Logo_Mesa de trabajo 1_Mesa de trabajo 1_Mesa de trabajo 1_Mesa de trabajo 1-03.png" alt="" width="230px"></a>
+              
+              
+              <img src="./Fonto de Menu.png" alt="" width="60px" class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mt-1 mb-lg-0 text-center">
+                  <li class="nav-item mt-1">
+                    <a class="nav-link " href=""><i class="icon ion-md-apps ms-2 me-2"></i>Inicio</a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a class="nav-link" href=""><i class="icon ion-md-cash ms-2  me-2"></i>Tienda</a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a class="nav-link" href=""><i class="icon ion-md-cube ms-2 me-2"></i>Almacen</a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a class="nav-link" href=""><i class="icon ion-logo-usd ms-2 me-2"></i>Loteria</a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a class="nav-link" href="#">Depositos</a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a class="nav-link" href="#">Retiros</a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a class="nav-link" href="#"><i class="icon ion-md-time ms-2 me-2"></i>Historial</a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a class="nav-link" href=""><i class="icon ion-md-contacts ms-2 me-2"></i>Referidos</a>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./Perfil.png" alt="" width="30px" class="mb-1"> Usuario
+                    </a>
+                    <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#"><i class="icon ion-md-contact  me-2"></i>Perfil</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="icon ion-md-megaphone me-2"></i>Ayuda</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="icon ion-md-power me-2"></i>salir</a></li>
+                    </ul>
+                  </li>
+                 
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <section id="card">
+        <div class="container mb-3">
+            <div class="row">
+                <div class="col-12 col-lg text-center mt-3 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text">
+                                <div class="row ">
+                                    <h3>Plata</h3>
+                                    <div class="col mt-4">
+                                        <p class="text-start">Tiempo</p>
+                                        <p class="text-start"> Precio</p>
+                                        <p class="text-start">Retorno</p>
+                                    </div>
+                                    <div class="col mt-4">
+                                        <p class="text-end">Tiempo</p>
+                                        <p class="text-end"> Precio</p>
+                                        <p class="text-end">Retorno</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                            <button>Comprar</button>
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalles
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Plata</h5>
+                                                </div>
+                                                <div class="modal-body text-start">
+                                                    <p>Metal noble del grupo de los elementos de transición, de color gris claro y brillante.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg text-center mt-3 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text">
+                                <div class="row ">
+                                    <h3>Plata</h3>
+                                    <div class="col mt-4">
+                                        <p class="text-start">Tiempo</p>
+                                        <p class="text-start"> Precio</p>
+                                        <p class="text-start">Retorno</p>
+                                    </div>
+                                    <div class="col mt-4">
+                                        <p class="text-end">Tiempo</p>
+                                        <p class="text-end"> Precio</p>
+                                        <p class="text-end">Retorno</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                            <button>Comprar</button>
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalles
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Plata</h5>
+                                                </div>
+                                                <div class="modal-body text-start">
+                                                    <p>Metal noble del grupo de los elementos de transición, de color gris claro y brillante.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-12 col-lg text-center mt-3 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text">
+                                <div class="row ">
+                                    <h3>Plata</h3>
+                                    <div class="col mt-4">
+                                        <p class="text-start">Tiempo</p>
+                                        <p class="text-start"> Precio</p>
+                                        <p class="text-start">Retorno</p>
+                                    </div>
+                                    <div class="col mt-4">
+                                        <p class="text-end">Tiempo</p>
+                                        <p class="text-end"> Precio</p>
+                                        <p class="text-end">Retorno</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                            <button>Comprar</button>
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalles
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Plata</h5>
+                                                </div>
+                                                <div class="modal-body text-start">
+                                                    <p>Metal noble del grupo de los elementos de transición, de color gris claro y brillante.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-12 col-lg text-center mt-3 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text">
+                                <div class="row ">
+                                    <h3>Plata</h3>
+                                    <div class="col mt-4">
+                                        <p class="text-start">Tiempo</p>
+                                        <p class="text-start"> Precio</p>
+                                        <p class="text-start">Retorno</p>
+                                    </div>
+                                    <div class="col mt-4">
+                                        <p class="text-end">Tiempo</p>
+                                        <p class="text-end"> Precio</p>
+                                        <p class="text-end">Retorno</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                            <button>Comprar</button>
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalles
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Plata</h5>
+                                                </div>
+                                                <div class="modal-body text-start">
+                                                    <p>Metal noble del grupo de los elementos de transición, de color gris claro y brillante.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg text-center mt-3 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text">
+                                <div class="row ">
+                                    <h3>Plata</h3>
+                                    <div class="col mt-4">
+                                        <p class="text-start">Tiempo</p>
+                                        <p class="text-start"> Precio</p>
+                                        <p class="text-start">Retorno</p>
+                                    </div>
+                                    <div class="col mt-4">
+                                        <p class="text-end">Tiempo</p>
+                                        <p class="text-end"> Precio</p>
+                                        <p class="text-end">Retorno</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                            <button>Comprar</button>
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalles
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Plata</h5>
+                                                </div>
+                                                <div class="modal-body text-start">
+                                                    <p>Metal noble del grupo de los elementos de transición, de color gris claro y brillante.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-12 col-lg text-center mt-3 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text">
+                                <div class="row ">
+                                    <h3>Plata</h3>
+                                    <div class="col mt-4">
+                                        <p class="text-start">Tiempo</p>
+                                        <p class="text-start"> Precio</p>
+                                        <p class="text-start">Retorno</p>
+                                    </div>
+                                    <div class="col mt-4">
+                                        <p class="text-end">Tiempo</p>
+                                        <p class="text-end"> Precio</p>
+                                        <p class="text-end">Retorno</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                            <button>Comprar</button>
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalles
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Plata</h5>
+                                                </div>
+                                                <div class="modal-body text-start">
+                                                    <p>Metal noble del grupo de los elementos de transición, de color gris claro y brillante.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+             <div class="row">
+                <div class="col-12 col-lg text-center mt-3 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text">
+                                <div class="row ">
+                                    <h3>Plata</h3>
+                                    <div class="col mt-4">
+                                        <p class="text-start">Tiempo</p>
+                                        <p class="text-start"> Precio</p>
+                                        <p class="text-start">Retorno</p>
+                                    </div>
+                                    <div class="col mt-4">
+                                        <p class="text-end">Tiempo</p>
+                                        <p class="text-end"> Precio</p>
+                                        <p class="text-end">Retorno</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                            <button>Comprar</button>
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalles
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Plata</h5>
+                                                </div>
+                                                <div class="modal-body text-start">
+                                                    <p>Metal noble del grupo de los elementos de transición, de color gris claro y brillante.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg text-center mt-3 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text">
+                                <div class="row ">
+                                    <h3>Plata</h3>
+                                    <div class="col mt-4">
+                                        <p class="text-start">Tiempo</p>
+                                        <p class="text-start"> Precio</p>
+                                        <p class="text-start">Retorno</p>
+                                    </div>
+                                    <div class="col mt-4">
+                                        <p class="text-end">Tiempo</p>
+                                        <p class="text-end"> Precio</p>
+                                        <p class="text-end">Retorno</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                            <button>Comprar</button>
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalles
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Plata</h5>
+                                                </div>
+                                                <div class="modal-body text-start">
+                                                    <p>Metal noble del grupo de los elementos de transición, de color gris claro y brillante.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg text-center mt-3 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text">
+                                <div class="row ">
+                                    <h3>Plata</h3>
+                                    <div class="col mt-4">
+                                        <p class="text-start">Tiempo</p>
+                                        <p class="text-start"> Precio</p>
+                                        <p class="text-start">Retorno</p>
+                                    </div>
+                                    <div class="col mt-4">
+                                        <p class="text-end">Tiempo</p>
+                                        <p class="text-end"> Precio</p>
+                                        <p class="text-end">Retorno</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                            <button>Comprar</button>
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalles
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Plata</h5>
+                                                </div>
+                                                <div class="modal-body text-start">
+                                                    <p>Metal noble del grupo de los elementos de transición, de color gris claro y brillante.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>        
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
